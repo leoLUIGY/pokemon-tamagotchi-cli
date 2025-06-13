@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BZUl/VHZ82w=",
+  "dgSpecHash": "jNjSu6194Y0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Antares\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
