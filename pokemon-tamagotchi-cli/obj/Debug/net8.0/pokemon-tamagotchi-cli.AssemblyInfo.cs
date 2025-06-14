@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pokemon-tamagotchi-cli")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5c7bd86ae240152ca5ab619c0d6084269963f3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7254e7e23239b1e39d44425918b80e6180871938")]
 [assembly: System.Reflection.AssemblyProductAttribute("pokemon-tamagotchi-cli")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pokemon-tamagotchi-cli")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

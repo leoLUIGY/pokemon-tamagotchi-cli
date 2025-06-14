@@ -16,3 +16,4 @@ C:\Users\Antares\Documents\Alura\pokemon-tamagotchi-cli\pokemon-tamagotchi-cli\o
 C:\Users\Antares\Documents\Alura\pokemon-tamagotchi-cli\pokemon-tamagotchi-cli\obj\Debug\net8.0\pokemon-tamagotchi-cli.pdb
 C:\Users\Antares\Documents\Alura\pokemon-tamagotchi-cli\pokemon-tamagotchi-cli\obj\Debug\net8.0\pokemon-tamagotchi-cli.genruntimeconfig.cache
 C:\Users\Antares\Documents\Alura\pokemon-tamagotchi-cli\pokemon-tamagotchi-cli\obj\Debug\net8.0\ref\pokemon-tamagotchi-cli.dll
+C:\Users\Antares\Documents\Alura\pokemon-tamagotchi-cli\pokemon-tamagotchi-cli\bin\Debug\net8.0\Newtonsoft.Json.dll
