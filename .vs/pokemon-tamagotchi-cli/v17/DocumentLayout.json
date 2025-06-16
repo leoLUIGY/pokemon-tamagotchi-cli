@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\mascote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\mascote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\pokemonapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\pokemonapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\pokemonspecies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +13,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\pokemonresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\pokemonresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\mascote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\mascote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|c:\\users\\antares\\documents\\alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C3BE89-FD72-43CE-A229-4EE00F0FBE9A}|pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli.csproj|solutionrelative:pokemon-tamagotchi-cli\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "PokemonApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\PokemonApiService.cs",
+              "RelativeDocumentMoniker": "pokemon-tamagotchi-cli\\PokemonApiService.cs",
+              "ToolTip": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\PokemonApiService.cs",
+              "RelativeToolTip": "pokemon-tamagotchi-cli\\PokemonApiService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T14:10:57.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\Menu.cs",
+              "RelativeDocumentMoniker": "pokemon-tamagotchi-cli\\Menu.cs",
+              "ToolTip": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\Menu.cs",
+              "RelativeToolTip": "pokemon-tamagotchi-cli\\Menu.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T14:01:12.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Ability.cs",
               "DocumentMoniker": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\Ability.cs",
               "RelativeDocumentMoniker": "pokemon-tamagotchi-cli\\Ability.cs",
@@ -51,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PokemonSpecies.cs",
               "DocumentMoniker": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\PokemonSpecies.cs",
               "RelativeDocumentMoniker": "pokemon-tamagotchi-cli\\PokemonSpecies.cs",
@@ -64,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "PokemonResult.cs",
               "DocumentMoniker": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\PokemonResult.cs",
               "RelativeDocumentMoniker": "pokemon-tamagotchi-cli\\PokemonResult.cs",
@@ -77,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Abilities.cs",
               "DocumentMoniker": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\Abilities.cs",
               "RelativeDocumentMoniker": "pokemon-tamagotchi-cli\\Abilities.cs",
@@ -85,31 +119,30 @@
               "RelativeToolTip": "pokemon-tamagotchi-cli\\Abilities.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T17:22:11.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T17:22:11.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Mascote.cs",
               "DocumentMoniker": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\Mascote.cs",
               "RelativeDocumentMoniker": "pokemon-tamagotchi-cli\\Mascote.cs",
               "ToolTip": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\Mascote.cs",
               "RelativeToolTip": "pokemon-tamagotchi-cli\\Mascote.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBoAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBoAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T17:20:42.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\Program.cs",
               "RelativeDocumentMoniker": "pokemon-tamagotchi-cli\\Program.cs",
               "ToolTip": "C:\\Users\\Antares\\Documents\\Alura\\pokemon-tamagotchi-cli\\pokemon-tamagotchi-cli\\Program.cs",
               "RelativeToolTip": "pokemon-tamagotchi-cli\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAkwDYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAEUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T12:24:33.557Z",
               "EditorCaption": ""

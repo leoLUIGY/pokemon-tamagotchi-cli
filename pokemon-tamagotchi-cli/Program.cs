@@ -1,59 +1,70 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
-using Newtonsoft.Json;
 using pokemon_tamagotchi_cli;
-using RestSharp;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 
-var client  =  new RestClient("https://pokeapi.co/api/v2/pokemon-species/");
-var request = new RestRequest("", Method.Get);
-var response = client.Execute(request);
+Menu menu = new Menu();
+PokemonApiService pokemonApiService = new PokemonApiService();
+List<PokemonResult> especiesDisponiveis = pokemonApiService.ObterEspeciesDisponiveis();
+List<Mascote> mascotesAdotados = new List<Mascote>();
 
+menu.MostrarMensagemDeBoasVindas();
 
-var pokemonSpecies = JsonConvert.DeserializeObject<PokemonSpecies>(response.Content);
-
-Console.WriteLine("Escolha um pokemon: ");
-
-
-for(int i = 0; i < pokemonSpecies.Results.Count; i++)
+while (true)
 {
-    Console.WriteLine($"{i + 1} - {pokemonSpecies.Results[i].Name}");
-}
+    menu.MostrarMenuPrincipal();
+    int escolha = menu.ObterEscolhaDoJogador();
 
-int escolha;
-
-while(true)
-{
-    Console.Write("Escolha um numero: ");
-
-    if (!int.TryParse(Console.ReadLine(), out escolha) && escolha >= 1 && escolha <= pokemonSpecies.Results.Count)
-    { 
-        Console.WriteLine("Escolha invalida, tente novamente.");    
-    }
-    else
+    switch (escolha)
     {
-        break;
+        case 1:
+            while (true)
+            {
+                menu.MostrarMenuDeAdocao();
+                escolha = menu.ObterEscolhaDoJogador();
+                switch (escolha)
+                {
+                    case 1:
+                        menu.MostrarEspeciesDisponiveis(especiesDisponiveis);
+                        break;
+                    case 2:
+                        menu.MostrarEspeciesDisponiveis(especiesDisponiveis);
+                        int indiceEspecie = menu.ObterEspecieEscolhida(especiesDisponiveis);
+                        Mascote detalhes = pokemonApiService.ObterDetalhesDaEspecie(especiesDisponiveis[indiceEspecie]);
+                        menu.MostrarDetalhesDaEspecie(detalhes);
+                        break;
+                    case 3:
+                        menu.MostrarEspeciesDisponiveis(especiesDisponiveis);
+                        indiceEspecie = menu.ObterEspecieEscolhida(especiesDisponiveis);
+                        detalhes = pokemonApiService.ObterDetalhesDaEspecie(especiesDisponiveis[indiceEspecie]);
+                        menu.MostrarDetalhesDaEspecie(detalhes);
+                        if (menu.ConfirmarAdocao())
+                        {
+                            mascotesAdotados.Add(detalhes);
+                            Console.WriteLine("Parabéns! Você adotou um " + detalhes.Name + "!");
+                            Console.WriteLine("──────────────");
+                            Console.WriteLine("────▄████▄────");
+                            Console.WriteLine("──▄████████▄──");
+                            Console.WriteLine("──██████████──");
+                            Console.WriteLine("──▀████████▀──");
+                            Console.WriteLine("─────▀██▀─────");
+                            Console.WriteLine("──────────────");
+                        }
+                        break;
+                    case 4:
+                        break;
+                }
+                if (escolha == 4)
+                {
+                    break;
+                }
+            }
+            break;
+        case 2:
+            menu.MostrarMascotesAdotados(mascotesAdotados);
+            break;
+        case 3:
+            Console.WriteLine("Obrigado por jogar! Até a próxima!");
+            return;
     }
 }
-
-
-client = new RestClient($"https://pokeapi.co/api/v2/pokemon/{escolha}");
-request = new RestRequest("", Method.Get);
-response = client.Execute(request);
-
-
-if (response.Content != null)
-{
-    Mascote mascote = JsonConvert.DeserializeObject<Mascote>(response.Content) ?? new Mascote();
-    Console.WriteLine(mascote);
-}
-else
-{
-    Console.WriteLine("Erro: Não foi possível obter os dados do Pokémon.");
-}
-
-
-
-
+        
